@@ -1,0 +1,6 @@
+Set Draw2SVG$Dir <Obey$Dir>
+Set Draw2SVG$Web "https://www.lancaster.ac.uk/~simpsons/software/pkg-draw2svg"
+Set Draw2SVG$Title "Draw-to-SVG Front End"
+IconSprites <Obey$Dir>.!Sprites
+Set File$Type_AAD SVG
+DOSMap SVG SVG

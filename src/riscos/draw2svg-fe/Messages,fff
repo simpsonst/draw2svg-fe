@@ -1,0 +1,68 @@
+charset: us-ascii
+
+str_website:https://www.lancaster.ac.uk/~simpsons/software/pkg-draw2svg
+
+ih_ibar:\TDraw-to-SVG converter.|MDrag a Drawfile here to convert it to SVG.
+mh_ibar_info:\Rget information about this version of the Draw-to-SVG converter.
+mh_ibar_new:\Ssee the options.
+mh_ibar_quit:\Squit the Draw-to-SVG converter.
+wh_info:This \w displays information about the Draw-to-SVG converter.
+ih_info_website:\Svisit the website for newer versions.
+mt_ibar:Draw2SVG
+mi_ibar:>Info,Options...|Quit
+
+mt_unit:Units
+mi_unit:Centimetres,Millimetres,Inches,Points
+mh_unit_cm:\Schoose centimetres as the preferred units.
+mh_unit_mm:\Schoose millimetres as the preferred units.
+mh_unit_in:\Schoose inches as the preferred units.
+mh_unit_pt:\Schoose points as the preferred units.
+
+ih_opts_xmin:\Schoose left alignment for aspect-ratio-preserved images.
+ih_opts_xmid:\Schoose centre alignment for aspect-ratio-preserved images.
+ih_opts_xmax:\Schoose right alignment for aspect-ratio-preserved images.
+
+ih_opts_ymin:\Schoose top alignment for aspect-ratio-preserved images.
+ih_opts_ymid:\Schoose middle alignment for aspect-ratio-preserved images.
+ih_opts_ymax:\Schoose bottom alignment for aspect-ratio-preserved images.
+
+ih_opts_okay:\Sconfirm your changes.
+ih_opts_restore:\Srestore previous options.
+ih_opts_cancel:\Scancel any changes.
+ih_opts_save:\Ssave the options.
+ih_opts_pos:This selects whether the image position is represented in the conversion.
+ih_opts_group:This selects whether groups are represented in the conversion.
+ih_opts_thin:This is the width of thin lines before scaling (in draw units if no units are specified).
+ih_opts_units:These are the preferred units when the converter needs to output lengths or co-ordinates with units.
+ih_opts_fontcfg:This is the font-configuration file.
+ih_opts_abssize:This makes the output have an absolute size.
+ih_opts_pcsize:This makes the output have a size expressed as percentages.
+ih_opts_nosize:This makes the output have no size.
+ih_opts_autosave:This selects automatic saving to the autosave directory.
+ih_opts_savedir:This is the autosave directory.
+ih_opts_unitmenu:\Schange the preferred units.
+ih_opts_bg:This selects whether a background is added.
+ih_opts_margin:This selects whether a margin is added after scaling.
+ih_opts_arno:This selects no aspect-ratio preservation.
+ih_opts_armeet:This selects aspect-ratio preservation by reducing the image enough to completely fit in the viewbox.
+ih_opts_arslice:This selects aspect-ratio preservation by expanding the image enough to fill the whole viewbox.
+ih_opts_fit:This selects scaling to fit to a given width or height.
+ih_opts_scale:This selects scaling by a given factor.
+ih_opts_sfnone:This deselects any scaling.
+ih_opts_txtfont:This selects conversion of text using a font-configuration file.
+ih_opts_txtpath:This selects conversion of text to paths.
+ih_opts_txtlatin1:This selects conversion of text assuming Latin-1 encoding.
+ih_opts_bgdata:This is the background colour ("#rrggbb").
+ih_opts_margindata:This is the margin size ("size" or "width,height").
+ih_opts_fitdata:Fit to width ("width,*"), height ("*,height") or both ("width,height").
+ih_opts_scaledata:This is the scale factor ("x[,y]").
+
+wr_opts_bg:These are the Draw-to-SVG conversion options.
+
+ih_save_okay:Click here to save the data with the current filename. If it is not a full pathname, you must drag the icon to a directory display first.
+ih_save_filename:This shows the filename for this data. If it is not a full pathname, drag the icon into a directory display.
+wa_save:The converter wants to know where you want to store the SVG file.
+
+tn_draw2svg:Draw-to-SVG
+em_dragsave:To save, drag the icon to a directory display
+em_noexec:Can't find the draw2svg program in <Run$Path>
